@@ -202,6 +202,7 @@ def predict(img):
     except Exception as e:
         print(f"错误: {str(e)}")
         return f"预测出错: {str(e)}", None
+    
 
 
 # ============ Gradio界面 ============
